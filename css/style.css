@@ -7,3 +7,9 @@ body {
   background-color: #F3F3F3;
   box-shadow: 0px 0px 5px #686868;
 }
+.title {
+  font-family: Helvetica;
+  color: rgb(179, 179, 179);
+  font-size: 30px;
+  margin-top: 15px;
+}
