@@ -7,9 +7,22 @@ body {
   background-color: #F3F3F3;
   box-shadow: 0px 0px 5px #686868;
 }
-.title {
+.header .title {
   font-family: Helvetica;
   color: rgb(179, 179, 179);
   font-size: 30px;
   padding: 10px;
+}
+.header-roll {
+  width: 100vw;
+  height: 80px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 0px 5px #686868;
+}
+.header-roll .title {
+  font-family: Helvetica;
+  color: rgb(179, 179, 179);
+  font-size: 30px;
+  padding: 10px;
+  padding-top: 20px;
 }
