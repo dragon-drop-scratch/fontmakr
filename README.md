@@ -2,7 +2,7 @@
 Use DragonDrop's fontmaker (FontMakr) to make the perfect font for your site
 
 **Step 1:**
-- Go to http://droppershort.cf/
+- Go to http://fonts.droppershort.cf/
 - Click on `New`
 
 **Step 2:**
