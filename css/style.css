@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 500vh;
 }
 .header {
   width: 100vw;
@@ -7,24 +8,24 @@ body {
   background-color: #F3F3F3;
   box-shadow: 0px 0px 5px #686868;
   position: fixed;
+  transition: all .15s ease;
 }
 .header .title {
   font-family: Helvetica;
   color: rgb(179, 179, 179);
   font-size: 30px;
   padding: 10px;
+  transition: all .30s ease;
 }
 .header-roll {
   width: 100vw;
-  height: 80px;
+  height: 20px;
   background-color: #F3F3F3;
   box-shadow: 0px 0px 5px #686868;
   position: fixed;
 }
 .header-roll .title {
   font-family: Helvetica;
-  color: rgb(179, 179, 179);
-  font-size: 30px;
-  padding: 10px;
-  padding-top: 20px;
+  color: transparent;
+  font-size: 0;
 }
