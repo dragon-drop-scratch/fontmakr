@@ -10,15 +10,9 @@
         </div>
         
         <script>
-          window.onscroll = function() {myFunction()};
-
-          function myFunction() {
-            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-              document.getElementById("head").className = "header-roll";
-            } else {
-              document.getElementById("head").className = "header";
-            }
-          }
+            $(window).on("scroll touchmove", function () {
+                $('#header').toggleClass('header-roll', $(document).scrollTop() > 0);
+            });
         </script>
     </body>
 </html>
