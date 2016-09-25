@@ -29,3 +29,5 @@ body {
   color: transparent;
   font-size: 0;
 }
+.new_button {
+  float: left;
