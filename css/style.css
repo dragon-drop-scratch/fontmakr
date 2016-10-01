@@ -31,3 +31,5 @@ body {
 }
 .new_button {
   float: right;
+  padding-right: 20px;
+}
